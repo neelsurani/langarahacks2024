@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuhorsFragment"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#00208b"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/tv_dash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="AuthorsBooks"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/author_points" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_list"
+        android:orientation="vertical">
+
+        <ListView
+            android:id='@+id/Grid_view'
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="20dp"
+            android:numColumns="2"
+            android:dividerHeight="10dp"
+            android:divider="#00208b"
+            android:verticalSpacing="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nextpaymentpage"
+    android:background="@drawable/linear_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/payment"
+        android:layout_marginTop="30dp"
+        android:text="Your Payment is Successful"
+        android:textSize="30sp"
+        android:textColor="#F4556D"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/payment_text"
+        android:text="DO you want to continue buying book press Yes or Logout for NO "
+        android:textSize="20sp"
+        android:textColor="#F4556D"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yes"
+            android:text="Yes"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/NO"
+            android:text="NO"
+            android:layout_marginLeft="230dp"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+    </LinearLayout>>
+
+</LinearLayout>

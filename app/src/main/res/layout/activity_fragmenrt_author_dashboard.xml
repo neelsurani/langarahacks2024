@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmenrt_Author_Dashboard"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/BookT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Title"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/AuthorN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/BookP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book price"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/Context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Content regarding book"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/ADD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
